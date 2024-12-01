@@ -5,8 +5,10 @@ import pytest
 def compute(data):
     pass
 
+
 INPUT = """
 """
+
 
 @pytest.mark.parametrize(("test_input,expected"), [(INPUT, None)])
 def test(test_input, expected):
